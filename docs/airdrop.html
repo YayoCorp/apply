@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <html>
+  <head>
+    <title>YAYO Free Airdrop</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+</head>
+<body>
+<script src="https://unpkg.com/tripetto-runner-foundation"></script>
+<script src="https://unpkg.com/tripetto-runner-autoscroll"></script>
+<script src="https://unpkg.com/tripetto-services"></script>
+<script>
+var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiL2ZXbHd4MHNvOElsQ3hJQm9pMjIvWCtwRjI5em0rK0ZLMGlmbFIzWkh6RT0iLCJkZWZpbml0aW9uIjoiODJ3TjJkM2NDK2FhNHlPQkJYY0t3UlF3TzJPZFFhK1VoTit6dmRXQ1BQRT0iLCJ0eXBlIjoiY29sbGVjdCJ9._cRmJHDxkAFPOyecgNM6epStGfXLhnEl7lttU4ivlPA" });
+
+TripettoAutoscroll.run({
+    element: document.body,
+    definition: tripetto.definition,
+    styles: tripetto.styles,
+    l10n: tripetto.l10n,
+    locale: tripetto.locale,
+    translations: tripetto.translations,
+    attachments: tripetto.attachments,
+    onSubmit: tripetto.onSubmit,
+    persistent: true
+});
+</script>
+</body>
+</html>
